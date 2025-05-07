@@ -15,11 +15,14 @@ const LoginPage = ({ onLogin }) => {
   };
 
   return (
-    <div className="login-container">
-      <h2>로그인</h2>
+    <div className="login-container"
+    style={{
+      fontStyle: "italic",
+    }}>
+      <h2>Sign-In</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>아이디:</label>
+          <label>ID : </label>
           <input
             type="text"
             value={username}
@@ -27,7 +30,7 @@ const LoginPage = ({ onLogin }) => {
           />
         </div>
         <div>
-          <label>비밀번호:</label>
+          <label>Password : </label>
           <input
             type="password"
             value={password}
@@ -35,7 +38,7 @@ const LoginPage = ({ onLogin }) => {
           />
         </div>
         {error && <p className="error">{error}</p>}
-        <button type="submit">로그인</button>
+        <button type="submit">Login</button>
       </form>
     </div>
   );

@@ -6,6 +6,7 @@ const HomePage = () => {
     {
       title: "소개",
       description: "제 소개입니다.",
+      color: ByteLengthQueuingStrategy,      
     },
     {
       title: "프로젝트",
