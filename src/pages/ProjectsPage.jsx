@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import sampleImage from "../assets/calcu.png";
+import Calculator from "../components/Calculator";
 
 /**
  * 프로젝트 페이지 컴포넌트
@@ -38,8 +39,11 @@ const ProjectsPage = () => {
           />
         ))}
       </div>
+      <Calculator />
     </div>
-  );
+  );  
+ 
 };
+
 
 export default ProjectsPage;

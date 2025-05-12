@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .row.full-width {
+    width: 100%;
+  }
+  
+  .button {
+    flex: 1;
+    margin: 5px;
+  }
+  
+  .button.full-width {
+    flex: 1 0 100%; /* 버튼이 한 행을 가로로 꽉 채우도록 설정 */
+  }

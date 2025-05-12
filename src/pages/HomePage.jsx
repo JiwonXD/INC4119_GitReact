@@ -5,8 +5,7 @@ const HomePage = () => {
   const features = [
     {
       title: "소개",
-      description: "제 소개입니다.",
-      color: ByteLengthQueuingStrategy,      
+      description: "제 소개입니다.",   
     },
     {
       title: "프로젝트",
